@@ -1,0 +1,57 @@
+[0.081s] Invoking command in '/home/tao-jazzy/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tao-jazzy/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/tao-jazzy/ros2_ws/install/cpp_pubsub
+[0.399s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.881s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.049s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.095s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.219s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.282s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.598s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.606s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.748s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.936s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.982s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[3.028s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.792s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.792s] -- Configured cppcheck include dirs: 
+[3.793s] -- Configured cppcheck exclude dirs and/or files: 
+[3.793s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.794s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.794s] -- Added test 'lint_cmake' to check CMake code style
+[3.804s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.804s] -- Added test 'uncrustify' to check C / C++ code style
+[3.805s] -- Configured uncrustify additional arguments: 
+[3.808s] -- Added test 'xmllint' to check XML markup files
+[3.824s] -- Configuring done (3.6s)
+[3.849s] -- Generating done (0.0s)
+[3.853s] -- Build files have been written to: /home/tao-jazzy/ros2_ws/build/cpp_pubsub
+[3.905s] Invoked command in '/home/tao-jazzy/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tao-jazzy/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/tao-jazzy/ros2_ws/install/cpp_pubsub
+[3.906s] Invoking command in '/home/tao-jazzy/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tao-jazzy/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[4.267s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[0m
+[10.952s] [ 50%] [32m[1mLinking CXX executable talker[0m
+[11.682s] [ 50%] Built target talker
+[11.758s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o[0m
+[23.823s] [100%] [32m[1mLinking CXX executable listener[0m
+[24.239s] [100%] Built target listener
+[24.265s] Invoked command in '/home/tao-jazzy/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tao-jazzy/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[24.455s] Invoking command in '/home/tao-jazzy/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tao-jazzy/ros2_ws/build/cpp_pubsub
+[24.503s] -- Install configuration: ""
+[24.503s] -- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[24.503s] -- Set non-toolchain portion of runtime path of "/home/tao-jazzy/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[24.503s] -- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[24.513s] -- Set non-toolchain portion of runtime path of "/home/tao-jazzy/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[24.530s] -- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[24.533s] -- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[24.534s] -- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[24.535s] -- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[24.535s] -- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[24.535s] -- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[24.535s] -- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[24.535s] -- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[24.536s] -- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[24.536s] -- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[24.536s] -- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[24.536s] -- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[24.537s] -- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[24.537s] -- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[24.537s] -- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[24.538s] Invoked command in '/home/tao-jazzy/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tao-jazzy/ros2_ws/build/cpp_pubsub

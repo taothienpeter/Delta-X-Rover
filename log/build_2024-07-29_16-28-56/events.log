@@ -1,0 +1,301 @@
+[0.000000] (-) TimerEvent: {}
+[0.001391] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.001448] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.001472] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.052803] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.080995] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.081085] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/tao-jazzy/ros2_ws/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/tao-jazzy/ros2_ws/install/cpp_pubsub'], 'cwd': '/home/tao-jazzy/ros2_ws/build/cpp_pubsub', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tao-jazzy', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tao-jazzy', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/tao-jazzy', 'TERM_PROGRAM_VERSION': '1.91.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '1442', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tao-jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tao-jazzy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tao-jazzy-VirtualBox:@/tmp/.ICE-unix/1395,unix/tao-jazzy-VirtualBox:/tmp/.ICE-unix/1395', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d81606d3_58bd_4630_b4e8_cdce49b778a3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.E19QR2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6aacc96e3b.sock', 'GNOME_TERMINAL_SERVICE': ':1.112', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tao-jazzy/ros2_ws/build/cpp_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.118944] (-) TimerEvent: {}
+[0.223888] (-) TimerEvent: {}
+[0.325795] (-) TimerEvent: {}
+[0.400420] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.449140] (-) TimerEvent: {}
+[0.570762] (-) TimerEvent: {}
+[0.680037] (-) TimerEvent: {}
+[0.782438] (-) TimerEvent: {}
+[0.883544] (-) TimerEvent: {}
+[0.995739] (-) TimerEvent: {}
+[1.104403] (-) TimerEvent: {}
+[1.234890] (-) TimerEvent: {}
+[1.344422] (-) TimerEvent: {}
+[1.446145] (-) TimerEvent: {}
+[1.548359] (-) TimerEvent: {}
+[1.670208] (-) TimerEvent: {}
+[1.782076] (-) TimerEvent: {}
+[1.881729] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.882073] (-) TimerEvent: {}
+[1.993361] (-) TimerEvent: {}
+[2.050315] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.093595] (-) TimerEvent: {}
+[2.096269] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.220444] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.220669] (-) TimerEvent: {}
+[2.282787] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.325778] (-) TimerEvent: {}
+[2.467798] (-) TimerEvent: {}
+[2.569479] (-) TimerEvent: {}
+[2.599223] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.607315] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.671340] (-) TimerEvent: {}
+[2.749051] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.781448] (-) TimerEvent: {}
+[2.883720] (-) TimerEvent: {}
+[2.936930] (cpp_pubsub) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[2.978824] (cpp_pubsub) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[2.996485] (-) TimerEvent: {}
+[3.029627] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[3.097138] (-) TimerEvent: {}
+[3.199724] (-) TimerEvent: {}
+[3.310364] (-) TimerEvent: {}
+[3.455932] (-) TimerEvent: {}
+[3.568456] (-) TimerEvent: {}
+[3.669540] (-) TimerEvent: {}
+[3.777336] (-) TimerEvent: {}
+[3.793565] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.793775] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.793984] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.794264] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.794989] (cpp_pubsub) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[3.795073] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.805484] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.805894] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.805965] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.809031] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.825170] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done (3.6s)\n'}
+[3.850370] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.853720] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/tao-jazzy/ros2_ws/build/cpp_pubsub\n'}
+[3.884841] (-) TimerEvent: {}
+[3.905475] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[3.906817] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[3.906903] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tao-jazzy/ros2_ws/build/cpp_pubsub', '--', '-j4', '-l4'], 'cwd': '/home/tao-jazzy/ros2_ws/build/cpp_pubsub', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tao-jazzy', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tao-jazzy', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/tao-jazzy', 'TERM_PROGRAM_VERSION': '1.91.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '1442', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tao-jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tao-jazzy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tao-jazzy-VirtualBox:@/tmp/.ICE-unix/1395,unix/tao-jazzy-VirtualBox:/tmp/.ICE-unix/1395', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d81606d3_58bd_4630_b4e8_cdce49b778a3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.E19QR2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6aacc96e3b.sock', 'GNOME_TERMINAL_SERVICE': ':1.112', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tao-jazzy/ros2_ws/build/cpp_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.037586] (-) TimerEvent: {}
+[4.140780] (-) TimerEvent: {}
+[4.262376] (-) TimerEvent: {}
+[4.267941] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o\x1b[0m\n'}
+[4.342966] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/tao-jazzy/ros2_ws/build/py_pubsub/build', 'install', '--record', '/home/tao-jazzy/ros2_ws/build/py_pubsub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/tao-jazzy/ros2_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tao-jazzy', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tao-jazzy', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/tao-jazzy', 'TERM_PROGRAM_VERSION': '1.91.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '1442', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tao-jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tao-jazzy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tao-jazzy-VirtualBox:@/tmp/.ICE-unix/1395,unix/tao-jazzy-VirtualBox:/tmp/.ICE-unix/1395', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d81606d3_58bd_4630_b4e8_cdce49b778a3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.E19QR2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6aacc96e3b.sock', 'GNOME_TERMINAL_SERVICE': ':1.112', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tao-jazzy/ros2_ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tao-jazzy/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.378401] (-) TimerEvent: {}
+[4.483529] (-) TimerEvent: {}
+[4.732813] (-) TimerEvent: {}
+[4.734525] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[4.839079] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[4.839370] (-) TimerEvent: {}
+[4.840653] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[4.845610] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[4.846956] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[4.939975] (-) TimerEvent: {}
+[5.000217] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[5.005764] (py_pubsub) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.011076] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[5.011720] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[5.012214] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[5.016845] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[5.044886] (-) TimerEvent: {}
+[5.053589] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[5.103713] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[5.107364] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.143718] (py_pubsub) StdoutLine: {'line': b"removing '/home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[5.144990] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info\n'}
+[5.145468] (-) TimerEvent: {}
+[5.147192] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[5.262516] (-) TimerEvent: {}
+[5.297423] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/tao-jazzy/ros2_ws/build/py_pubsub/install.log'\n"}
+[5.347886] (py_pubsub) CommandEnded: {'returncode': 0}
+[5.362925] (-) TimerEvent: {}
+[5.415159] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[5.659758] (-) TimerEvent: {}
+[5.761380] (-) TimerEvent: {}
+[5.865420] (-) TimerEvent: {}
+[5.972288] (-) TimerEvent: {}
+[6.079862] (-) TimerEvent: {}
+[6.208789] (-) TimerEvent: {}
+[6.311313] (-) TimerEvent: {}
+[6.415018] (-) TimerEvent: {}
+[6.531576] (-) TimerEvent: {}
+[6.652638] (-) TimerEvent: {}
+[6.756397] (-) TimerEvent: {}
+[6.857622] (-) TimerEvent: {}
+[6.969746] (-) TimerEvent: {}
+[7.116728] (-) TimerEvent: {}
+[7.232472] (-) TimerEvent: {}
+[7.334243] (-) TimerEvent: {}
+[7.436182] (-) TimerEvent: {}
+[7.760613] (-) TimerEvent: {}
+[8.398672] (-) TimerEvent: {}
+[8.550547] (-) TimerEvent: {}
+[8.697623] (-) TimerEvent: {}
+[8.866077] (-) TimerEvent: {}
+[9.070080] (-) TimerEvent: {}
+[9.422370] (-) TimerEvent: {}
+[9.524205] (-) TimerEvent: {}
+[9.662194] (-) TimerEvent: {}
+[9.784093] (-) TimerEvent: {}
+[9.892203] (-) TimerEvent: {}
+[10.009576] (-) TimerEvent: {}
+[10.689615] (-) TimerEvent: {}
+[10.797780] (-) TimerEvent: {}
+[10.910198] (-) TimerEvent: {}
+[10.952936] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[11.010991] (-) TimerEvent: {}
+[11.111812] (-) TimerEvent: {}
+[11.217190] (-) TimerEvent: {}
+[11.317923] (-) TimerEvent: {}
+[11.424334] (-) TimerEvent: {}
+[11.535369] (-) TimerEvent: {}
+[11.637688] (-) TimerEvent: {}
+[11.683165] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] Built target talker\n'}
+[11.738215] (-) TimerEvent: {}
+[11.759395] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o\x1b[0m\n'}
+[11.840057] (-) TimerEvent: {}
+[11.944726] (-) TimerEvent: {}
+[12.048395] (-) TimerEvent: {}
+[12.149745] (-) TimerEvent: {}
+[12.253903] (-) TimerEvent: {}
+[12.355635] (-) TimerEvent: {}
+[12.460625] (-) TimerEvent: {}
+[12.565425] (-) TimerEvent: {}
+[12.667305] (-) TimerEvent: {}
+[12.767686] (-) TimerEvent: {}
+[12.869476] (-) TimerEvent: {}
+[12.972436] (-) TimerEvent: {}
+[13.079495] (-) TimerEvent: {}
+[13.183965] (-) TimerEvent: {}
+[13.284686] (-) TimerEvent: {}
+[13.385311] (-) TimerEvent: {}
+[13.486494] (-) TimerEvent: {}
+[13.587729] (-) TimerEvent: {}
+[13.688356] (-) TimerEvent: {}
+[13.790371] (-) TimerEvent: {}
+[13.891743] (-) TimerEvent: {}
+[13.993199] (-) TimerEvent: {}
+[14.095208] (-) TimerEvent: {}
+[14.196704] (-) TimerEvent: {}
+[14.297416] (-) TimerEvent: {}
+[14.402044] (-) TimerEvent: {}
+[14.504536] (-) TimerEvent: {}
+[14.605444] (-) TimerEvent: {}
+[14.705924] (-) TimerEvent: {}
+[14.806753] (-) TimerEvent: {}
+[14.907376] (-) TimerEvent: {}
+[15.009246] (-) TimerEvent: {}
+[15.110146] (-) TimerEvent: {}
+[15.211005] (-) TimerEvent: {}
+[15.312071] (-) TimerEvent: {}
+[15.416710] (-) TimerEvent: {}
+[15.518273] (-) TimerEvent: {}
+[15.619188] (-) TimerEvent: {}
+[15.720914] (-) TimerEvent: {}
+[15.822697] (-) TimerEvent: {}
+[15.924199] (-) TimerEvent: {}
+[16.026502] (-) TimerEvent: {}
+[16.137366] (-) TimerEvent: {}
+[16.239028] (-) TimerEvent: {}
+[16.339645] (-) TimerEvent: {}
+[16.441101] (-) TimerEvent: {}
+[16.547815] (-) TimerEvent: {}
+[16.654586] (-) TimerEvent: {}
+[16.760678] (-) TimerEvent: {}
+[16.861388] (-) TimerEvent: {}
+[16.962337] (-) TimerEvent: {}
+[17.063932] (-) TimerEvent: {}
+[17.165542] (-) TimerEvent: {}
+[17.266519] (-) TimerEvent: {}
+[17.372615] (-) TimerEvent: {}
+[17.479095] (-) TimerEvent: {}
+[17.581188] (-) TimerEvent: {}
+[17.684115] (-) TimerEvent: {}
+[17.784998] (-) TimerEvent: {}
+[17.887702] (-) TimerEvent: {}
+[17.989413] (-) TimerEvent: {}
+[18.091022] (-) TimerEvent: {}
+[18.194566] (-) TimerEvent: {}
+[18.298870] (-) TimerEvent: {}
+[18.399977] (-) TimerEvent: {}
+[18.500968] (-) TimerEvent: {}
+[18.605887] (-) TimerEvent: {}
+[18.708913] (-) TimerEvent: {}
+[18.809423] (-) TimerEvent: {}
+[18.910394] (-) TimerEvent: {}
+[19.011645] (-) TimerEvent: {}
+[19.112899] (-) TimerEvent: {}
+[19.214731] (-) TimerEvent: {}
+[19.316058] (-) TimerEvent: {}
+[19.417484] (-) TimerEvent: {}
+[19.518599] (-) TimerEvent: {}
+[19.620462] (-) TimerEvent: {}
+[19.720969] (-) TimerEvent: {}
+[19.824035] (-) TimerEvent: {}
+[19.926815] (-) TimerEvent: {}
+[20.027391] (-) TimerEvent: {}
+[20.129007] (-) TimerEvent: {}
+[20.230070] (-) TimerEvent: {}
+[20.331205] (-) TimerEvent: {}
+[20.431578] (-) TimerEvent: {}
+[20.532693] (-) TimerEvent: {}
+[20.633307] (-) TimerEvent: {}
+[20.734120] (-) TimerEvent: {}
+[20.835394] (-) TimerEvent: {}
+[20.946348] (-) TimerEvent: {}
+[21.047326] (-) TimerEvent: {}
+[21.148161] (-) TimerEvent: {}
+[21.249762] (-) TimerEvent: {}
+[21.350335] (-) TimerEvent: {}
+[21.450864] (-) TimerEvent: {}
+[21.551803] (-) TimerEvent: {}
+[21.656263] (-) TimerEvent: {}
+[21.759083] (-) TimerEvent: {}
+[21.860286] (-) TimerEvent: {}
+[21.961091] (-) TimerEvent: {}
+[22.062642] (-) TimerEvent: {}
+[22.163349] (-) TimerEvent: {}
+[22.265077] (-) TimerEvent: {}
+[22.365971] (-) TimerEvent: {}
+[22.466716] (-) TimerEvent: {}
+[22.567271] (-) TimerEvent: {}
+[22.669499] (-) TimerEvent: {}
+[22.771106] (-) TimerEvent: {}
+[22.872635] (-) TimerEvent: {}
+[22.973695] (-) TimerEvent: {}
+[23.076259] (-) TimerEvent: {}
+[23.178450] (-) TimerEvent: {}
+[23.281320] (-) TimerEvent: {}
+[23.386699] (-) TimerEvent: {}
+[23.491848] (-) TimerEvent: {}
+[23.595475] (-) TimerEvent: {}
+[23.698048] (-) TimerEvent: {}
+[23.802715] (-) TimerEvent: {}
+[23.823795] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[23.908788] (-) TimerEvent: {}
+[24.009444] (-) TimerEvent: {}
+[24.113521] (-) TimerEvent: {}
+[24.214759] (-) TimerEvent: {}
+[24.240646] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[24.265698] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[24.332827] (-) TimerEvent: {}
+[24.426097] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[24.442900] (-) TimerEvent: {}
+[24.455891] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tao-jazzy/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/tao-jazzy/ros2_ws/build/cpp_pubsub', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tao-jazzy', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tao-jazzy', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/tao-jazzy', 'TERM_PROGRAM_VERSION': '1.91.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '1442', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tao-jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tao-jazzy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tao-jazzy-VirtualBox:@/tmp/.ICE-unix/1395,unix/tao-jazzy-VirtualBox:/tmp/.ICE-unix/1395', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d81606d3_58bd_4630_b4e8_cdce49b778a3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.E19QR2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6aacc96e3b.sock', 'GNOME_TERMINAL_SERVICE': ':1.112', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tao-jazzy/ros2_ws/build/cpp_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[24.503422] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.504173] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[24.504414] (cpp_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tao-jazzy/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[24.504489] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[24.508414] (cpp_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tao-jazzy/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[24.527882] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[24.531401] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[24.534684] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[24.535428] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[24.536647] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[24.536738] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[24.536819] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[24.536899] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[24.536963] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[24.537030] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[24.537094] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[24.537157] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[24.537219] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[24.538084] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[24.538833] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[24.538910] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[24.543762] (-) TimerEvent: {}
+[24.645245] (-) TimerEvent: {}
+[24.653118] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[24.656330] (-) EventReactorShutdown: {}

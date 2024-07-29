@@ -1,0 +1,33 @@
+[0.052s] Invoking command in '/home/tao-jazzy/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tao-jazzy/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/tao-jazzy/ros2_ws/install/cpp_pubsub
+[0.498s] -- The C compiler identification is GNU 13.2.0
+[0.770s] -- The CXX compiler identification is GNU 13.2.0
+[0.873s] -- Detecting C compiler ABI info
+[1.186s] -- Detecting C compiler ABI info - done
+[1.225s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.230s] -- Detecting C compile features
+[1.234s] -- Detecting C compile features - done
+[1.270s] -- Detecting CXX compiler ABI info
+[1.587s] -- Detecting CXX compiler ABI info - done
+[1.618s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.618s] -- Detecting CXX compile features
+[1.620s] -- Detecting CXX compile features - done
+[1.630s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.046s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.364s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.510s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.558s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.609s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.671s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.918s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.930s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.263s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.303s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.364s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.602s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.664s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[3.710s] [31mCMake Error at CMakeLists.txt:17 (find_library):
+[3.710s]   Could not find SerialStream using the following names:
+[3.710s] 
+[3.711s] [0m
+[3.711s] -- Configuring incomplete, errors occurred!
+[3.735s] Invoked command in '/home/tao-jazzy/ros2_ws/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tao-jazzy/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/tao-jazzy/ros2_ws/install/cpp_pubsub

@@ -1,0 +1,30 @@
+[1.431s] Invoking command in '/home/tao-jazzy/ros2_ws/build/py_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tao-jazzy/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tao-jazzy/ros2_ws/build/py_pubsub/build --no-deps symlink_data --force
+[1.963s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.963s] !!
+[1.963s] 
+[1.963s]         ********************************************************************************
+[1.964s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.964s]         Instead, use pypa/build, pypa/installer or other
+[1.964s]         standards-based tools.
+[1.964s] 
+[1.964s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.964s]         ********************************************************************************
+[1.964s] 
+[1.964s] !!
+[1.964s]   easy_install.initialize_options(self)
+[1.964s] running develop
+[2.234s] running egg_info
+[2.260s] writing py_pubsub.egg-info/PKG-INFO
+[2.260s] writing dependency_links to py_pubsub.egg-info/dependency_links.txt
+[2.262s] writing requirements to py_pubsub.egg-info/requires.txt
+[2.262s] writing top-level names to py_pubsub.egg-info/top_level.txt
+[2.340s] reading manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[2.340s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[2.380s] running build_ext
+[2.381s] Creating /home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py-pubsub.egg-link (link to .)
+[2.382s] 
+[2.383s] Installed /home/tao-jazzy/ros2_ws/build/py_pubsub
+[2.383s] running symlink_data
+[2.385s] symbolically linking /home/tao-jazzy/ros2_ws/build/py_pubsub/resource/py_pubsub -> /home/tao-jazzy/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[2.385s] symbolically linking /home/tao-jazzy/ros2_ws/build/py_pubsub/package.xml -> /home/tao-jazzy/ros2_ws/install/py_pubsub/share/py_pubsub
+[2.467s] Invoked command in '/home/tao-jazzy/ros2_ws/build/py_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tao-jazzy/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tao-jazzy/ros2_ws/build/py_pubsub/build --no-deps symlink_data --force
