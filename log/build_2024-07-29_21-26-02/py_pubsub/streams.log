@@ -1,0 +1,14 @@
+[1.018s] Invoking command in '/home/tao-jazzy/ros2_ws/src/py_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tao-jazzy/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/tao-jazzy/ros2_ws/build/py_pubsub/build install --record /home/tao-jazzy/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[1.337s] running egg_info
+[1.358s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[1.362s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[1.362s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[1.362s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[1.385s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.385s] adding license file 'LICENSE'
+[1.389s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.389s] running build
+[1.389s] running install
+[1.397s] running install_data
+[1.398s] error: can't copy 'resource/py_pubsub': doesn't exist or not a regular file
+[1.448s] Invoked command in '/home/tao-jazzy/ros2_ws/src/py_pubsub' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tao-jazzy/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/tao-jazzy/ros2_ws/build/py_pubsub/build install --record /home/tao-jazzy/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data

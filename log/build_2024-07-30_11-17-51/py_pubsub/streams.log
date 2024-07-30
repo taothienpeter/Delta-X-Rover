@@ -1,0 +1,29 @@
+[1.374s] Invoking command in '/home/tao-jazzy/ros2_ws/src/py_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tao-jazzy/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/tao-jazzy/ros2_ws/build/py_pubsub/build install --record /home/tao-jazzy/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[1.644s] running egg_info
+[1.664s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[1.665s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[1.665s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[1.665s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[1.704s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.705s] adding license file 'LICENSE'
+[1.706s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.706s] running build
+[1.706s] running build_py
+[1.708s] copying py_pubsub/publisher_member_function.py -> /home/tao-jazzy/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[1.708s] copying py_pubsub/__init__.py -> /home/tao-jazzy/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[1.708s] copying py_pubsub/driver.py -> /home/tao-jazzy/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[1.708s] running install
+[1.715s] running install_lib
+[1.734s] copying /home/tao-jazzy/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[1.735s] copying /home/tao-jazzy/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[1.735s] copying /home/tao-jazzy/ros2_ws/build/py_pubsub/build/lib/py_pubsub/driver.py -> /home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[1.736s] byte-compiling /home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-312.pyc
+[1.737s] byte-compiling /home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/__init__.py to __init__.cpython-312.pyc
+[1.737s] byte-compiling /home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/driver.py to driver.cpython-312.pyc
+[1.741s] running install_data
+[1.741s] running install_egg_info
+[1.770s] removing '/home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info' (and everything under it)
+[1.776s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[1.777s] running install_scripts
+[1.937s] writing list of installed files to '/home/tao-jazzy/ros2_ws/build/py_pubsub/install.log'
+[1.983s] Invoked command in '/home/tao-jazzy/ros2_ws/src/py_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tao-jazzy/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/tao-jazzy/ros2_ws/build/py_pubsub/build install --record /home/tao-jazzy/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data

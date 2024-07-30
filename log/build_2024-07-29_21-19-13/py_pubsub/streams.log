@@ -1,0 +1,19 @@
+[0.977s] Invoking command in '/home/tao-jazzy/ros2_ws/src/py_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tao-jazzy/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/tao-jazzy/ros2_ws/build/py_pubsub/build install --record /home/tao-jazzy/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[1.290s] running egg_info
+[1.321s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[1.321s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[1.321s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[1.321s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[1.347s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.348s] adding license file 'LICENSE'
+[1.348s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.348s] running build
+[1.348s] running build_py
+[1.348s] copying py_pubsub/publisher_member_function.py -> /home/tao-jazzy/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[1.348s] running install
+[1.361s] running install_lib
+[1.397s] copying /home/tao-jazzy/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[1.398s] byte-compiling /home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-312.pyc
+[1.400s] running install_data
+[1.405s] error: can't copy 'resource/py_pubsub': doesn't exist or not a regular file
+[1.447s] Invoked command in '/home/tao-jazzy/ros2_ws/src/py_pubsub' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tao-jazzy/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/tao-jazzy/ros2_ws/build/py_pubsub/build install --record /home/tao-jazzy/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
