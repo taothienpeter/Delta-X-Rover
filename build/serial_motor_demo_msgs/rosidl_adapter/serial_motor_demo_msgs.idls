@@ -1,0 +1,3 @@
+/home/tao-jazzy/ros2_ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs:msg/MotorCommand.idl
+/home/tao-jazzy/ros2_ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs:msg/MotorVels.idl
+/home/tao-jazzy/ros2_ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs:msg/EncoderVals.idl

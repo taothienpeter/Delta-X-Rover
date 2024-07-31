@@ -1,0 +1,449 @@
+[0.000000] (-) TimerEvent: {}
+[0.001926] (serial_motor_demo_msgs) JobQueued: {'identifier': 'serial_motor_demo_msgs', 'dependencies': OrderedDict()}
+[0.001980] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict({'serial_motor_demo_msgs': '/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs'})}
+[0.002005] (serial_motor_demo_msgs) JobStarted: {'identifier': 'serial_motor_demo_msgs'}
+[0.028127] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'cmake'}
+[0.028253] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/tao-jazzy/ros2_ws/src/serial_motor_demo_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs'], 'cwd': '/home/tao-jazzy/ros2_ws/build/serial_motor_demo_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tao-jazzy', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tao-jazzy', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/tao-jazzy/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.91.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '1405', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tao-jazzy/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tao-jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tao-jazzy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tao-jazzy-VirtualBox:@/tmp/.ICE-unix/1359,unix/tao-jazzy-VirtualBox:/tmp/.ICE-unix/1359', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b23583e3_d857_4a34_84ae_522de4c382ea', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.O5UXR2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6aacc96e3b.sock', 'GNOME_TERMINAL_SERVICE': ':1.129', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tao-jazzy/ros2_ws/install/py_pubsub:/home/tao-jazzy/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'NO_AT_BRIDGE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tao-jazzy/ros2_ws/build/serial_motor_demo_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/tao-jazzy/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tao-jazzy/ros2_ws/install/py_pubsub:/opt/ros/jazzy'}), 'shell': False}
+[0.098882] (-) TimerEvent: {}
+[0.152602] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[0.199359] (-) TimerEvent: {}
+[0.274268] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[0.300216] (-) TimerEvent: {}
+[0.301270] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400708] (-) TimerEvent: {}
+[0.466724] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.472936] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.477276] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.480654] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.501305] (-) TimerEvent: {}
+[0.502102] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.601765] (-) TimerEvent: {}
+[0.679408] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.691158] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.691524] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.692526] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.695619] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.702181] (-) TimerEvent: {}
+[0.803548] (-) TimerEvent: {}
+[0.876395] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.911752] (-) TimerEvent: {}
+[0.973463] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.009141] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.011543] (-) TimerEvent: {}
+[1.126697] (-) TimerEvent: {}
+[1.181333] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.195764] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.227318] (-) TimerEvent: {}
+[1.247450] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.299363] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.3 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.334855] (-) TimerEvent: {}
+[1.436391] (-) TimerEvent: {}
+[1.536834] (-) TimerEvent: {}
+[1.637566] (-) TimerEvent: {}
+[1.739368] (-) TimerEvent: {}
+[1.840193] (-) TimerEvent: {}
+[1.940622] (-) TimerEvent: {}
+[1.983518] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.041589] (-) TimerEvent: {}
+[2.143095] (-) TimerEvent: {}
+[2.244464] (-) TimerEvent: {}
+[2.347343] (-) TimerEvent: {}
+[2.449206] (-) TimerEvent: {}
+[2.550183] (-) TimerEvent: {}
+[2.564455] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.651715] (-) TimerEvent: {}
+[2.758418] (-) TimerEvent: {}
+[2.864368] (-) TimerEvent: {}
+[2.966493] (-) TimerEvent: {}
+[3.067608] (-) TimerEvent: {}
+[3.168853] (-) TimerEvent: {}
+[3.270492] (-) TimerEvent: {}
+[3.317342] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.320101] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[3.370749] (-) TimerEvent: {}
+[3.472502] (-) TimerEvent: {}
+[3.504264] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[3.581855] (-) TimerEvent: {}
+[3.700407] (-) TimerEvent: {}
+[3.804389] (-) TimerEvent: {}
+[3.905456] (-) TimerEvent: {}
+[4.006594] (-) TimerEvent: {}
+[4.108129] (-) TimerEvent: {}
+[4.151733] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[4.199202] (serial_motor_demo_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.199928] (serial_motor_demo_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.200998] (serial_motor_demo_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.207337] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Configuring done (4.2s)\n'}
+[4.209246] (-) TimerEvent: {}
+[4.267042] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[4.269275] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/tao-jazzy/ros2_ws/build/serial_motor_demo_msgs\n'}
+[4.282664] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[4.283174] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'build'}
+[4.283201] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tao-jazzy/ros2_ws/build/serial_motor_demo_msgs', '--', '-j4', '-l4'], 'cwd': '/home/tao-jazzy/ros2_ws/build/serial_motor_demo_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tao-jazzy', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tao-jazzy', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/tao-jazzy/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.91.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '1405', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tao-jazzy/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tao-jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tao-jazzy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tao-jazzy-VirtualBox:@/tmp/.ICE-unix/1359,unix/tao-jazzy-VirtualBox:/tmp/.ICE-unix/1359', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b23583e3_d857_4a34_84ae_522de4c382ea', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.O5UXR2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6aacc96e3b.sock', 'GNOME_TERMINAL_SERVICE': ':1.129', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tao-jazzy/ros2_ws/install/py_pubsub:/home/tao-jazzy/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'NO_AT_BRIDGE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tao-jazzy/ros2_ws/build/serial_motor_demo_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/tao-jazzy/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tao-jazzy/ros2_ws/install/py_pubsub:/opt/ros/jazzy'}), 'shell': False}
+[4.309850] (-) TimerEvent: {}
+[4.382512] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.389901] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_serial_motor_demo_msgs\n'}
+[4.411631] (-) TimerEvent: {}
+[4.512479] (-) TimerEvent: {}
+[4.615612] (-) TimerEvent: {}
+[4.716345] (-) TimerEvent: {}
+[4.771975] (serial_motor_demo_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.774238] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  1%] Built target serial_motor_demo_msgs__rosidl_generator_type_description\n'}
+[4.777531] (serial_motor_demo_msgs) StdoutLine: {'line': b'creating serial_motor_demo_msgs.egg-info\n'}
+[4.817941] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.818739] (-) TimerEvent: {}
+[4.821283] (serial_motor_demo_msgs) StdoutLine: {'line': b'writing serial_motor_demo_msgs.egg-info/PKG-INFO\n'}
+[4.822195] (serial_motor_demo_msgs) StdoutLine: {'line': b'writing dependency_links to serial_motor_demo_msgs.egg-info/dependency_links.txt\n'}
+[4.822389] (serial_motor_demo_msgs) StdoutLine: {'line': b'writing top-level names to serial_motor_demo_msgs.egg-info/top_level.txt\n'}
+[4.825843] (serial_motor_demo_msgs) StdoutLine: {'line': b"writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'\n"}
+[4.859537] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.946849] (serial_motor_demo_msgs) StdoutLine: {'line': b"reading manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'\n"}
+[4.960446] (-) TimerEvent: {}
+[4.962810] (serial_motor_demo_msgs) StdoutLine: {'line': b"writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'\n"}
+[5.035524] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_serial_motor_demo_msgs_egg\n'}
+[5.063586] (-) TimerEvent: {}
+[5.172276] (-) TimerEvent: {}
+[5.274261] (-) TimerEvent: {}
+[5.375420] (-) TimerEvent: {}
+[5.476312] (-) TimerEvent: {}
+[5.546212] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  5%] Built target serial_motor_demo_msgs__cpp\n'}
+[5.576415] (-) TimerEvent: {}
+[5.638749] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__functions.c.o\x1b[0m\n'}
+[5.641253] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c.o\x1b[0m\n'}
+[5.643742] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__description.c.o\x1b[0m\n'}
+[5.647515] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__description.c.o\x1b[0m\n'}
+[5.676686] (-) TimerEvent: {}
+[5.735044] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c.o\x1b[0m\n'}
+[5.735571] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__functions.c.o\x1b[0m\n'}
+[5.740519] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__description.c.o\x1b[0m\n'}
+[5.761634] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.c.o\x1b[0m\n'}
+[5.777428] (-) TimerEvent: {}
+[5.796681] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c.o\x1b[0m\n'}
+[5.877200] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library libserial_motor_demo_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[5.877474] (-) TimerEvent: {}
+[5.948527] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 24%] Built target serial_motor_demo_msgs__rosidl_generator_c\n'}
+[5.966623] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.966846] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.971261] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.974922] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.977630] (-) TimerEvent: {}
+[6.078770] (-) TimerEvent: {}
+[6.260573] (-) TimerEvent: {}
+[6.369091] (-) TimerEvent: {}
+[6.463912] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o\x1b[0m\n'}
+[6.469349] (-) TimerEvent: {}
+[6.570346] (-) TimerEvent: {}
+[6.649681] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_command__type_support.cpp.o\x1b[0m\n'}
+[6.695364] (-) TimerEvent: {}
+[6.701951] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support_c.cpp.o\x1b[0m\n'}
+[6.798327] (-) TimerEvent: {}
+[6.822765] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_command__type_support.cpp.o\x1b[0m\n'}
+[7.177369] (-) TimerEvent: {}
+[7.278697] (-) TimerEvent: {}
+[7.381552] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[7.397756] (-) TimerEvent: {}
+[7.404685] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[7.728464] (-) TimerEvent: {}
+[7.761412] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support_c.cpp.o\x1b[0m\n'}
+[7.828238] (-) TimerEvent: {}
+[7.929589] (-) TimerEvent: {}
+[7.960472] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[8.089081] (-) TimerEvent: {}
+[8.146855] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[8.161331] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[8.356514] (-) TimerEvent: {}
+[8.521512] (-) TimerEvent: {}
+[8.633717] (-) TimerEvent: {}
+[8.735784] (-) TimerEvent: {}
+[8.805163] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.819337] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.836380] (-) TimerEvent: {}
+[8.869494] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support_c.cpp.o\x1b[0m\n'}
+[8.937561] (-) TimerEvent: {}
+[8.951715] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 55%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp\n'}
+[8.963481] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 55%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp\n'}
+[8.991777] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.992506] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 59%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.165441] (-) TimerEvent: {}
+[9.261606] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[9.266380] (-) TimerEvent: {}
+[9.371666] (-) TimerEvent: {}
+[9.445332] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o\x1b[0m\n'}
+[9.494348] (-) TimerEvent: {}
+[9.533181] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[9.633061] (-) TimerEvent: {}
+[9.736121] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[9.737008] (-) TimerEvent: {}
+[9.801228] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c.o\x1b[0m\n'}
+[9.811075] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.825879] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.865328] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c.o\x1b[0m\n'}
+[9.865565] (-) TimerEvent: {}
+[9.883381] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 74%] Built target serial_motor_demo_msgs__rosidl_typesupport_c\n'}
+[9.901534] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c.o\x1b[0m\n'}
+[9.909179] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 75%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c\n'}
+[9.951849] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking C shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.995417] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 77%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c\n'}
+[9.995594] (-) TimerEvent: {}
+[10.082890] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.096189] (-) TimerEvent: {}
+[10.178272] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 79%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[10.196515] (-) TimerEvent: {}
+[10.217333] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 79%] Built target serial_motor_demo_msgs\n'}
+[10.261344] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.297369] (-) TimerEvent: {}
+[10.401403] (-) TimerEvent: {}
+[10.504581] (-) TimerEvent: {}
+[10.607672] (-) TimerEvent: {}
+[10.709241] (-) TimerEvent: {}
+[10.811231] (-) TimerEvent: {}
+[10.839657] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 81%] Built target serial_motor_demo_msgs__py\n'}
+[10.891958] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_command_s.c.o\x1b[0m\n'}
+[10.893133] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_vels_s.c.o\x1b[0m\n'}
+[10.893675] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_encoder_vals_s.c.o\x1b[0m\n'}
+[10.919113] (-) TimerEvent: {}
+[11.025420] (-) TimerEvent: {}
+[11.118487] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library libserial_motor_demo_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[11.127238] (-) TimerEvent: {}
+[11.200127] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 88%] Built target serial_motor_demo_msgs__rosidl_generator_py\n'}
+[11.227726] (-) TimerEvent: {}
+[11.242983] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.243533] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.245766] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.366371] (-) TimerEvent: {}
+[11.421548] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.432952] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.433775] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.468719] (-) TimerEvent: {}
+[11.501248] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_c\n'}
+[11.520795] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[11.528232] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c\n'}
+[11.551412] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[11.570531] (-) TimerEvent: {}
+[11.671516] (-) TimerEvent: {}
+[11.772934] (-) TimerEvent: {}
+[11.875258] (-) TimerEvent: {}
+[11.976249] (-) TimerEvent: {}
+[12.076700] (-) TimerEvent: {}
+[12.109975] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'install'}
+[12.126871] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tao-jazzy/ros2_ws/build/serial_motor_demo_msgs'], 'cwd': '/home/tao-jazzy/ros2_ws/build/serial_motor_demo_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tao-jazzy', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tao-jazzy', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/tao-jazzy/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.91.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '1405', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tao-jazzy/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tao-jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tao-jazzy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tao-jazzy-VirtualBox:@/tmp/.ICE-unix/1359,unix/tao-jazzy-VirtualBox:/tmp/.ICE-unix/1359', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b23583e3_d857_4a34_84ae_522de4c382ea', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.O5UXR2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6aacc96e3b.sock', 'GNOME_TERMINAL_SERVICE': ':1.129', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tao-jazzy/ros2_ws/install/py_pubsub:/home/tao-jazzy/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'NO_AT_BRIDGE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tao-jazzy/ros2_ws/build/serial_motor_demo_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/tao-jazzy/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tao-jazzy/ros2_ws/install/py_pubsub:/opt/ros/jazzy'}), 'shell': False}
+[12.140126] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.141448] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.141586] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs\n'}
+[12.154410] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.json\n'}
+[12.166866] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.json\n'}
+[12.178251] (-) TimerEvent: {}
+[12.181067] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.json\n'}
+[12.196700] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h\n'}
+[12.211310] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h\n'}
+[12.226367] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h\n'}
+[12.242474] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__functions.h\n'}
+[12.260398] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.h\n'}
+[12.273534] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h\n'}
+[12.279233] (-) TimerEvent: {}
+[12.290648] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h\n'}
+[12.308686] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h\n'}
+[12.325681] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h\n'}
+[12.341308] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.h\n'}
+[12.353882] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.h\n'}
+[12.370931] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.h\n'}
+[12.379990] (-) TimerEvent: {}
+[12.384441] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.398357] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh\n'}
+[12.413388] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv\n'}
+[12.430646] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h\n'}
+[12.446417] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h\n'}
+[12.459169] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h\n'}
+[12.473238] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.480399] (-) TimerEvent: {}
+[12.487804] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h\n'}
+[12.513277] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h\n'}
+[12.533790] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h\n'}
+[12.552384] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.571441] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp\n'}
+[12.580667] (-) TimerEvent: {}
+[12.587318] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp\n'}
+[12.602777] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp\n'}
+[12.623029] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.hpp\n'}
+[12.637591] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp\n'}
+[12.652605] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp\n'}
+[12.666017] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp\n'}
+[12.679421] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.hpp\n'}
+[12.680841] (-) TimerEvent: {}
+[12.693432] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp\n'}
+[12.710154] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp\n'}
+[12.724996] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp\n'}
+[12.740249] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.hpp\n'}
+[12.753402] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.hpp\n'}
+[12.765144] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.hpp\n'}
+[12.777744] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.hpp\n'}
+[12.781292] (-) TimerEvent: {}
+[12.790637] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[12.806082] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.819478] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.834204] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.848210] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.862686] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.875853] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.883141] (-) TimerEvent: {}
+[12.889397] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.905437] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh\n'}
+[12.921805] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv\n'}
+[12.938889] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[12.953388] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[12.969287] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[12.981742] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[12.983346] (-) TimerEvent: {}
+[12.995026] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/__init__.py\n'}
+[13.010563] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[13.026291] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[13.040219] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[13.052241] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/__init__.py\n'}
+[13.065395] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_encoder_vals.py\n'}
+[13.078958] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_encoder_vals_s.c\n'}
+[13.083488] (-) TimerEvent: {}
+[13.093625] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_command.py\n'}
+[13.110118] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_command_s.c\n'}
+[13.135478] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_vels.py\n'}
+[13.155681] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_vels_s.c\n'}
+[13.172533] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.so\n'}
+[13.183945] (-) TimerEvent: {}
+[13.190810] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[13.208331] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[13.226253] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[13.228130] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[13.228289] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.so\n'}
+[13.228351] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl\n'}
+[13.245505] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl\n'}
+[13.261236] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl\n'}
+[13.275231] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg\n'}
+[13.284138] (-) TimerEvent: {}
+[13.290109] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg\n'}
+[13.310047] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg\n'}
+[13.326604] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs\n'}
+[13.341130] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs\n'}
+[13.353296] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh\n'}
+[13.366889] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv\n'}
+[13.381525] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh\n'}
+[13.384249] (-) TimerEvent: {}
+[13.396566] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv\n'}
+[13.427966] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash\n'}
+[13.451909] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh\n'}
+[13.471025] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh\n'}
+[13.484422] (-) TimerEvent: {}
+[13.486787] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv\n'}
+[13.510196] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv\n'}
+[13.529680] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs\n'}
+[13.545499] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[13.557780] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.571086] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.584622] (-) TimerEvent: {}
+[13.585588] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.602892] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.621895] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.643928] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.663029] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake\n'}
+[13.679278] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake\n'}
+[13.685038] (-) TimerEvent: {}
+[13.696532] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml\n'}
+[13.718452] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so\n'}
+[13.718849] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so" to ""\n'}
+[13.719185] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[13.719464] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.719780] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so\n'}
+[13.720325] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.720409] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so\n'}
+[13.720498] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so" to ""\n'}
+[13.720581] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.720662] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[13.720728] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[13.720790] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[13.720851] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so\n'}
+[13.720917] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[13.773542] (serial_motor_demo_msgs) StdoutLine: {'line': b"Listing '/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs'...\n"}
+[13.774190] (serial_motor_demo_msgs) StdoutLine: {'line': b"Compiling '/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/__init__.py'...\n"}
+[13.774283] (serial_motor_demo_msgs) StdoutLine: {'line': b"Listing '/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg'...\n"}
+[13.774347] (serial_motor_demo_msgs) StdoutLine: {'line': b"Compiling '/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/__init__.py'...\n"}
+[13.774410] (serial_motor_demo_msgs) StdoutLine: {'line': b"Compiling '/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_encoder_vals.py'...\n"}
+[13.774471] (serial_motor_demo_msgs) StdoutLine: {'line': b"Compiling '/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_command.py'...\n"}
+[13.774533] (serial_motor_demo_msgs) StdoutLine: {'line': b"Compiling '/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_vels.py'...\n"}
+[13.782449] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so\n'}
+[13.782964] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so" to ""\n'}
+[13.783255] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport.cmake\n'}
+[13.783340] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[13.783403] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[13.783461] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[13.783521] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[13.783578] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[13.783636] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake\n'}
+[13.783757] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[13.783823] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cppExport.cmake\n'}
+[13.783891] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[13.783949] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[13.784016] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[13.784075] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[13.784132] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[13.784189] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[13.784247] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport.cmake\n'}
+[13.784303] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[13.790651] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[13.792199] (-) TimerEvent: {}
+[13.893174] (-) TimerEvent: {}
+[13.993838] (-) TimerEvent: {}
+[14.094223] (-) TimerEvent: {}
+[14.195282] (-) TimerEvent: {}
+[14.244491] (serial_motor_demo_msgs) JobEnded: {'identifier': 'serial_motor_demo_msgs', 'rc': 0}
+[14.248862] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[14.295639] (-) TimerEvent: {}
+[14.402149] (-) TimerEvent: {}
+[14.587563] (-) TimerEvent: {}
+[14.704603] (-) TimerEvent: {}
+[14.806232] (-) TimerEvent: {}
+[14.909269] (-) TimerEvent: {}
+[15.011183] (-) TimerEvent: {}
+[15.114756] (-) TimerEvent: {}
+[15.216608] (-) TimerEvent: {}
+[15.318211] (-) TimerEvent: {}
+[15.399971] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/tao-jazzy/ros2_ws/build/py_pubsub/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/tao-jazzy/ros2_ws/build/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tao-jazzy', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tao-jazzy', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/tao-jazzy/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.91.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '1405', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tao-jazzy/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tao-jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tao-jazzy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tao-jazzy-VirtualBox:@/tmp/.ICE-unix/1359,unix/tao-jazzy-VirtualBox:/tmp/.ICE-unix/1359', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b23583e3_d857_4a34_84ae_522de4c382ea', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.O5UXR2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6aacc96e3b.sock', 'GNOME_TERMINAL_SERVICE': ':1.129', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs:/home/tao-jazzy/ros2_ws/install/py_pubsub:/home/tao-jazzy/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'NO_AT_BRIDGE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tao-jazzy/ros2_ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tao-jazzy/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs:/home/tao-jazzy/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[15.419324] (-) TimerEvent: {}
+[15.520696] (-) TimerEvent: {}
+[15.622169] (-) TimerEvent: {}
+[15.723134] (-) TimerEvent: {}
+[15.806523] (py_pubsub) StdoutLine: {'line': b'running develop\n'}
+[15.808618] (py_pubsub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[15.808948] (py_pubsub) StderrLine: {'line': b'!!\n'}
+[15.809018] (py_pubsub) StderrLine: {'line': b'\n'}
+[15.809071] (py_pubsub) StderrLine: {'line': b'        ********************************************************************************\n'}
+[15.809123] (py_pubsub) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[15.809174] (py_pubsub) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[15.809224] (py_pubsub) StderrLine: {'line': b'        standards-based tools.\n'}
+[15.809275] (py_pubsub) StderrLine: {'line': b'\n'}
+[15.809324] (py_pubsub) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[15.809375] (py_pubsub) StderrLine: {'line': b'        ********************************************************************************\n'}
+[15.809424] (py_pubsub) StderrLine: {'line': b'\n'}
+[15.809472] (py_pubsub) StderrLine: {'line': b'!!\n'}
+[15.809521] (py_pubsub) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[15.824678] (-) TimerEvent: {}
+[15.933669] (-) TimerEvent: {}
+[16.035468] (-) TimerEvent: {}
+[16.095612] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[16.120597] (py_pubsub) StdoutLine: {'line': b'writing py_pubsub.egg-info/PKG-INFO\n'}
+[16.123028] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to py_pubsub.egg-info/dependency_links.txt\n'}
+[16.123313] (py_pubsub) StdoutLine: {'line': b'writing entry points to py_pubsub.egg-info/entry_points.txt\n'}
+[16.123378] (py_pubsub) StdoutLine: {'line': b'writing requirements to py_pubsub.egg-info/requires.txt\n'}
+[16.123437] (py_pubsub) StdoutLine: {'line': b'writing top-level names to py_pubsub.egg-info/top_level.txt\n'}
+[16.137913] (-) TimerEvent: {}
+[16.175177] (py_pubsub) StdoutLine: {'line': b"reading manifest file 'py_pubsub.egg-info/SOURCES.txt'\n"}
+[16.176365] (py_pubsub) StdoutLine: {'line': b"writing manifest file 'py_pubsub.egg-info/SOURCES.txt'\n"}
+[16.206402] (py_pubsub) StdoutLine: {'line': b'running build_ext\n'}
+[16.206602] (py_pubsub) StdoutLine: {'line': b'Creating /home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py-pubsub.egg-link (link to .)\n'}
+[16.207733] (py_pubsub) StdoutLine: {'line': b'Installing drive_convert script to /home/tao-jazzy/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[16.208505] (py_pubsub) StdoutLine: {'line': b'\n'}
+[16.208689] (py_pubsub) StdoutLine: {'line': b'Installed /home/tao-jazzy/ros2_ws/build/py_pubsub\n'}
+[16.208978] (py_pubsub) StdoutLine: {'line': b'running symlink_data\n'}
+[16.209058] (py_pubsub) StdoutLine: {'line': b'symbolically linking /home/tao-jazzy/ros2_ws/build/py_pubsub/resource/py_pubsub -> /home/tao-jazzy/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[16.209384] (py_pubsub) StdoutLine: {'line': b'symbolically linking /home/tao-jazzy/ros2_ws/build/py_pubsub/package.xml -> /home/tao-jazzy/ros2_ws/install/py_pubsub/share/py_pubsub\n'}
+[16.238345] (-) TimerEvent: {}
+[16.276718] (py_pubsub) CommandEnded: {'returncode': 0}
+[16.295952] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[16.306221] (-) EventReactorShutdown: {}

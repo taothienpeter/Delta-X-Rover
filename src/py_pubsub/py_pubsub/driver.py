@@ -8,8 +8,6 @@ import math
 import serial
 from threading import Lock
 
-
-
 class MotorDriver(Node):
 
     def __init__(self):
@@ -18,7 +16,7 @@ class MotorDriver(Node):
 
         # Setup parameters
 
-        self.declare_parameter('encoder_cpr', value=0)
+        self.declare_parameter('encoder_cpr', value=0) #num of pulse for counting 
         if (self.get_parameter('encoder_cpr').value == 0):
             print("WARNING! ENCODER CPR SET TO 0!!")
 
@@ -72,13 +70,8 @@ class MotorDriver(Node):
         print(f"Connecting to port {self.serial_port} at {self.baud_rate}.")
         self.conn = serial.Serial(self.serial_port, self.baud_rate, timeout=1.0)
         print(f"Connected to {self.conn}")
-        
-
-        
-
 
     # Raw serial commands
-    
     def send_pwm_motor_command(self, mot_1_pwm, mot_2_pwm):
         self.send_command(f"o {int(mot_1_pwm)} {int(mot_2_pwm)}")
 
@@ -93,7 +86,6 @@ class MotorDriver(Node):
 
 
     # More user-friendly functions
-
     def motor_command_callback(self, motor_command):
         if (motor_command.is_pwm):
             self.send_pwm_motor_command(motor_command.mot_1_req_rad_sec, motor_command.mot_2_req_rad_sec)

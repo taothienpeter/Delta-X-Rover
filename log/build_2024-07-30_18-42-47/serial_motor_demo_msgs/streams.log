@@ -1,0 +1,260 @@
+[0.030s] Invoking command in '/home/tao-jazzy/ros2_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tao-jazzy/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tao-jazzy/ros2_ws/src/serial_motor_demo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs
+[0.151s] -- The C compiler identification is GNU 13.2.0
+[0.272s] -- The CXX compiler identification is GNU 13.2.0
+[0.299s] -- Detecting C compiler ABI info
+[0.465s] -- Detecting C compiler ABI info - done
+[0.471s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.475s] -- Detecting C compile features
+[0.479s] -- Detecting C compile features - done
+[0.500s] -- Detecting CXX compiler ABI info
+[0.678s] -- Detecting CXX compiler ABI info - done
+[0.689s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.690s] -- Detecting CXX compile features
+[0.691s] -- Detecting CXX compile features - done
+[0.694s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.875s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.972s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.007s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.180s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.194s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.246s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.298s] -- Found rosidl_adapter: 4.6.3 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.982s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.563s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.316s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.318s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.503s] -- Found PythonExtra: /usr/bin/python3  
+[4.150s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.197s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.198s] -- Added test 'lint_cmake' to check CMake code style
+[4.199s] -- Added test 'xmllint' to check XML markup files
+[4.205s] -- Configuring done (4.2s)
+[4.265s] -- Generating done (0.0s)
+[4.267s] -- Build files have been written to: /home/tao-jazzy/ros2_ws/build/serial_motor_demo_msgs
+[4.281s] Invoked command in '/home/tao-jazzy/ros2_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tao-jazzy/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tao-jazzy/ros2_ws/src/serial_motor_demo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs
+[4.281s] Invoking command in '/home/tao-jazzy/ros2_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tao-jazzy/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tao-jazzy/ros2_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[4.381s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.388s] [  1%] Built target ament_cmake_python_symlink_serial_motor_demo_msgs
+[4.770s] running egg_info
+[4.773s] [  1%] Built target serial_motor_demo_msgs__rosidl_generator_type_description
+[4.776s] creating serial_motor_demo_msgs.egg-info
+[4.816s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.820s] writing serial_motor_demo_msgs.egg-info/PKG-INFO
+[4.820s] writing dependency_links to serial_motor_demo_msgs.egg-info/dependency_links.txt
+[4.820s] writing top-level names to serial_motor_demo_msgs.egg-info/top_level.txt
+[4.824s] writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[4.858s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.947s] reading manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[4.961s] writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[5.037s] [  5%] Built target ament_cmake_python_build_serial_motor_demo_msgs_egg
+[5.544s] [  5%] Built target serial_motor_demo_msgs__cpp
+[5.637s] [  7%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__functions.c.o[0m
+[5.639s] [  9%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c.o[0m
+[5.642s] [ 11%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__description.c.o[0m
+[5.646s] [ 12%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__description.c.o[0m
+[5.733s] [ 14%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c.o[0m
+[5.734s] [ 16%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__functions.c.o[0m
+[5.739s] [ 18%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__description.c.o[0m
+[5.760s] [ 20%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.c.o[0m
+[5.795s] [ 22%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c.o[0m
+[5.875s] [ 24%] [32m[1mLinking C shared library libserial_motor_demo_msgs__rosidl_generator_c.so[0m
+[5.947s] [ 24%] Built target serial_motor_demo_msgs__rosidl_generator_c
+[5.965s] [ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.965s] [ 27%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.969s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.973s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.462s] [ 33%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o[0m
+[6.648s] [ 35%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_command__type_support.cpp.o[0m
+[6.700s] [ 37%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support_c.cpp.o[0m
+[6.821s] [ 38%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_command__type_support.cpp.o[0m
+[7.380s] [ 40%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o[0m
+[7.403s] [ 42%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.cpp.o[0m
+[7.764s] [ 44%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support_c.cpp.o[0m
+[7.960s] [ 46%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_vels__type_support.cpp.o[0m
+[8.145s] [ 48%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.cpp.o[0m
+[8.161s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o[0m
+[8.804s] [ 51%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[8.818s] [ 53%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_cpp.so[0m
+[8.868s] [ 55%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support_c.cpp.o[0m
+[8.950s] [ 55%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp
+[8.962s] [ 55%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp
+[8.990s] [ 57%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.991s] [ 59%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.260s] [ 61%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/encoder_vals__type_support.cpp.o[0m
+[9.444s] [ 62%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o[0m
+[9.532s] [ 64%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o[0m
+[9.735s] [ 66%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o[0m
+[9.799s] [ 68%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c.o[0m
+[9.809s] [ 70%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_c.so[0m
+[9.824s] [ 72%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[9.863s] [ 74%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c.o[0m
+[9.882s] [ 74%] Built target serial_motor_demo_msgs__rosidl_typesupport_c
+[9.900s] [ 75%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c.o[0m
+[9.908s] [ 75%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c
+[9.950s] [ 77%] [32m[1mLinking C shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so[0m
+[9.994s] [ 77%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c
+[10.081s] [ 79%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.177s] [ 79%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[10.216s] [ 79%] Built target serial_motor_demo_msgs
+[10.260s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.838s] [ 81%] Built target serial_motor_demo_msgs__py
+[10.890s] [ 83%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_command_s.c.o[0m
+[10.891s] [ 87%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_vels_s.c.o[0m
+[10.892s] [ 87%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_encoder_vals_s.c.o[0m
+[11.117s] [ 88%] [32m[1mLinking C shared library libserial_motor_demo_msgs__rosidl_generator_py.so[0m
+[11.198s] [ 88%] Built target serial_motor_demo_msgs__rosidl_generator_py
+[11.241s] [ 90%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.242s] [ 92%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.244s] [ 94%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[11.421s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.so[0m
+[11.432s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[11.432s] [100%] [32m[1mLinking C shared module rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[11.500s] [100%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_c
+[11.520s] [100%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c
+[11.526s] [100%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c
+[11.550s] Invoked command in '/home/tao-jazzy/ros2_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tao-jazzy/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tao-jazzy/ros2_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[12.125s] Invoking command in '/home/tao-jazzy/ros2_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tao-jazzy/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tao-jazzy/ros2_ws/build/serial_motor_demo_msgs
+[12.139s] -- Install configuration: ""
+[12.140s] -- Execute custom install script
+[12.140s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs
+[12.153s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.json
+[12.165s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.json
+[12.179s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.json
+[12.195s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h
+[12.209s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h
+[12.225s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h
+[12.241s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__functions.h
+[12.259s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.h
+[12.272s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h
+[12.289s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h
+[12.307s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h
+[12.324s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h
+[12.339s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.h
+[12.353s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.h
+[12.369s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.h
+[12.383s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h
+[12.397s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh
+[12.412s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv
+[12.429s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h
+[12.445s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
+[12.457s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h
+[12.471s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.486s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h
+[12.511s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+[12.532s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h
+[12.553s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.570s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp
+[12.586s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp
+[12.601s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp
+[12.621s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.hpp
+[12.636s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp
+[12.651s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp
+[12.664s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp
+[12.678s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.hpp
+[12.692s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp
+[12.708s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp
+[12.723s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp
+[12.738s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.hpp
+[12.752s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.hpp
+[12.763s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.hpp
+[12.776s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.hpp
+[12.789s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.804s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp
+[12.818s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+[12.832s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp
+[12.846s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.861s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp
+[12.874s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp
+[12.888s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp
+[12.904s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh
+[12.920s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv
+[12.937s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[12.952s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[12.968s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[12.980s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[12.993s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/__init__.py
+[13.009s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c
+[13.024s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[13.038s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[13.051s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/__init__.py
+[13.064s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_encoder_vals.py
+[13.077s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_encoder_vals_s.c
+[13.092s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_command.py
+[13.108s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_command_s.c
+[13.134s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_vels.py
+[13.154s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_vels_s.c
+[13.171s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.so
+[13.189s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.so
+[13.207s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.so
+[13.224s] -- Up-to-date symlink: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.so
+[13.226s] -- Up-to-date symlink: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.so
+[13.226s] -- Up-to-date symlink: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.so
+[13.226s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl
+[13.244s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl
+[13.260s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl
+[13.274s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg
+[13.288s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg
+[13.310s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg
+[13.325s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs
+[13.339s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs
+[13.352s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh
+[13.366s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv
+[13.380s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh
+[13.395s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv
+[13.427s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash
+[13.451s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh
+[13.470s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh
+[13.485s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv
+[13.508s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv
+[13.528s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs
+[13.544s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake
+[13.556s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.570s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[13.584s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[13.601s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.620s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.642s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.662s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake
+[13.677s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake
+[13.695s] -- Symlinking: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml
+[13.717s] -- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so
+[13.717s] -- Set non-toolchain portion of runtime path of "/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so" to ""
+[13.717s] -- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so
+[13.718s] -- Set non-toolchain portion of runtime path of "/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[13.718s] -- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so
+[13.718s] -- Set non-toolchain portion of runtime path of "/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so" to ""
+[13.718s] -- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so
+[13.719s] -- Set non-toolchain portion of runtime path of "/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so" to ""
+[13.719s] -- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[13.719s] -- Set non-toolchain portion of runtime path of "/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.719s] -- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so
+[13.719s] -- Set non-toolchain portion of runtime path of "/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[13.719s] -- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so
+[13.719s] -- Set non-toolchain portion of runtime path of "/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so" to ""
+[13.772s] Listing '/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs'...
+[13.772s] Compiling '/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/__init__.py'...
+[13.772s] Listing '/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg'...
+[13.772s] Compiling '/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/__init__.py'...
+[13.772s] Compiling '/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_encoder_vals.py'...
+[13.773s] Compiling '/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_command.py'...
+[13.773s] Compiling '/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_vels.py'...
+[13.781s] -- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so
+[13.781s] -- Set non-toolchain portion of runtime path of "/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so" to ""
+[13.781s] -- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport.cmake
+[13.781s] -- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake
+[13.781s] -- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[13.781s] -- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[13.782s] -- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[13.782s] -- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[13.782s] -- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake
+[13.782s] -- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[13.782s] -- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cppExport.cmake
+[13.782s] -- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.782s] -- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[13.782s] -- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[13.782s] -- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[13.782s] -- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake
+[13.782s] -- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[13.782s] -- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport.cmake
+[13.782s] -- Installing: /home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[13.789s] Invoked command in '/home/tao-jazzy/ros2_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tao-jazzy/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tao-jazzy/ros2_ws/build/serial_motor_demo_msgs
