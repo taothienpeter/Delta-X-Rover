@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'drive_convert = py_pubsub.publisher_member_funtion:main',
+            'drive_convert = py_pubsub.publisher_member_function:main',
         ],
     },
 )

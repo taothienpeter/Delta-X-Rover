@@ -14,38 +14,38 @@
 
 import rclpy
 from rclpy.node import Node
+from geometry_msgs.msg import Twist
+#from std_msgs.msg import String
+import serial
 
-from std_msgs.msg import String
 
-
-class MinimalPublisher(Node):
+class teleop_serial(Node):
 
     def __init__(self):
-        super().__init__('minimal_publisher')
-        self.publisher_ = self.create_publisher(String, 'topic', 10)
-        timer_period = 0.5  # seconds
-        self.timer = self.create_timer(timer_period, self.timer_callback)
-        self.i = 0
+        super().__init__('teleop_serial')
 
-    def timer_callback(self):
-        msg = String()
-        msg.data = 'Hello World: %d' % self.i
-        self.publisher_.publish(msg)
-        self.get_logger().info('Publishing: "%s"' % msg.data)
-        self.i += 1
-    
+        #setup para
+
+        self.subscription = self.create_subscription(
+            Twist,
+            'cmd_vel',
+            self.listener_callback,
+            10)
+        self.subscription
+        self.serial_port = serial.Serial('/dev/ttyUSB0', 9600, timeout = 1)
+
+
+    def listener_callback(self, msg):
+        linear_x = msg.linear.x
+        angular_z = msg.angular.z
+        command = "f {linear_x}, {angulaer_z}\n"
+        self.serial_port.write(command.encode())
 
 def main(args=None):
     rclpy.init(args=args)
-
-    minimal_publisher = MinimalPublisher()
-
-    rclpy.spin(minimal_publisher)
-
-    # Destroy the node explicitly
-    # (optional - otherwise it will be done automatically
-    # when the garbage collector destroys the node object)
-    minimal_publisher.destroy_node()
+    node = teleop_serial()
+    rclpy.spin(node)
+    node.destroy_node()
     rclpy.shutdown()
 
 

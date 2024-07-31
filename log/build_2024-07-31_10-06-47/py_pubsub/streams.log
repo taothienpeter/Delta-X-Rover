@@ -1,0 +1,49 @@
+[4.624s] Invoking command in '/home/tao-jazzy/ros2_ws/build/py_pubsub': AMENT_PREFIX_PATH=/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tao-jazzy/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/tao-jazzy/ros2_ws/build/py_pubsub/build
+[5.241s] running develop
+[5.250s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[5.250s] !!
+[5.251s] 
+[5.251s]         ********************************************************************************
+[5.251s]         Please avoid running ``setup.py`` and ``easy_install``.
+[5.251s]         Instead, use pypa/build, pypa/installer or other
+[5.251s]         standards-based tools.
+[5.251s] 
+[5.251s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[5.251s]         ********************************************************************************
+[5.251s] 
+[5.252s] !!
+[5.252s]   easy_install.initialize_options(self)
+[5.701s] Removing /home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py-pubsub.egg-link (link to .)
+[5.784s] Invoked command in '/home/tao-jazzy/ros2_ws/build/py_pubsub' returned '0': AMENT_PREFIX_PATH=/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tao-jazzy/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/tao-jazzy/ros2_ws/build/py_pubsub/build
+[5.794s] Invoking command in '/home/tao-jazzy/ros2_ws/src/py_pubsub': AMENT_PREFIX_PATH=/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tao-jazzy/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/tao-jazzy/ros2_ws/build/py_pubsub/build install --record /home/tao-jazzy/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data --force
+[6.396s] running egg_info
+[6.432s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[6.433s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[6.434s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[6.436s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[6.437s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[6.523s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[6.527s] adding license file 'LICENSE'
+[6.528s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[6.529s] running build
+[6.530s] running build_py
+[6.530s] copying py_pubsub/publisher_member_function.py -> /home/tao-jazzy/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[6.531s] copying py_pubsub/driver.py -> /home/tao-jazzy/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[6.531s] running install
+[6.543s] running install_lib
+[6.593s] creating /home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[6.593s] copying /home/tao-jazzy/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[6.595s] copying /home/tao-jazzy/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[6.595s] copying /home/tao-jazzy/ros2_ws/build/py_pubsub/build/lib/py_pubsub/driver.py -> /home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[6.595s] byte-compiling /home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-312.pyc
+[6.596s] byte-compiling /home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/__init__.py to __init__.cpython-312.pyc
+[6.596s] byte-compiling /home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/driver.py to driver.cpython-312.pyc
+[6.602s] running install_data
+[6.602s] copying resource/py_pubsub -> /home/tao-jazzy/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[6.603s] copying package.xml -> /home/tao-jazzy/ros2_ws/install/py_pubsub/share/py_pubsub
+[6.603s] running install_egg_info
+[6.650s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[6.653s] running install_scripts
+[6.900s] Installing drive_convert script to /home/tao-jazzy/ros2_ws/install/py_pubsub/lib/py_pubsub
+[6.902s] writing list of installed files to '/home/tao-jazzy/ros2_ws/build/py_pubsub/install.log'
+[6.967s] Invoked command in '/home/tao-jazzy/ros2_ws/src/py_pubsub' returned '0': AMENT_PREFIX_PATH=/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tao-jazzy/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tao-jazzy/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/tao-jazzy/ros2_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/tao-jazzy/ros2_ws/build/py_pubsub/build install --record /home/tao-jazzy/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data --force

@@ -8,8 +8,6 @@ import math
 import serial
 from threading import Lock
 
-
-
 class MotorDriver(Node):
 
     def __init__(self):
@@ -18,7 +16,7 @@ class MotorDriver(Node):
 
         # Setup parameters
 
-        self.declare_parameter('encoder_cpr', value=0)
+        self.declare_parameter('encoder_cpr', value=0) #num of pulse for counting 
         if (self.get_parameter('encoder_cpr').value == 0):
             print("WARNING! ENCODER CPR SET TO 0!!")
 
@@ -72,18 +70,13 @@ class MotorDriver(Node):
         print(f"Connecting to port {self.serial_port} at {self.baud_rate}.")
         self.conn = serial.Serial(self.serial_port, self.baud_rate, timeout=1.0)
         print(f"Connected to {self.conn}")
-        
-
-        
-
 
     # Raw serial commands
-    
     def send_pwm_motor_command(self, mot_1_pwm, mot_2_pwm):
-        self.send_command(f"o {int(mot_1_pwm)} {int(mot_2_pwm)}")
+        self.send_command(f"o {int(mot_1_pwm)} {int(mot_2_pwm)}") # send pwm speed
 
     def send_feedback_motor_command(self, mot_1_ct_per_loop, mot_2_ct_per_loop):
-        self.send_command(f"m {int(mot_1_ct_per_loop)} {int(mot_2_ct_per_loop)}")
+        self.send_command(f"m {int(mot_1_ct_per_loop)} {int(mot_2_ct_per_loop)}") # gửi tốc đọ theo syntax 
 
     def send_encoder_read_command(self):
         resp = self.send_command(f"e")
@@ -93,16 +86,15 @@ class MotorDriver(Node):
 
 
     # More user-friendly functions
-
     def motor_command_callback(self, motor_command):
         if (motor_command.is_pwm):
-            self.send_pwm_motor_command(motor_command.mot_1_req_rad_sec, motor_command.mot_2_req_rad_sec)
+            self.send_pwm_motor_command(motor_command.mot_1_req_rad_sec, motor_command.mot_2_req_rad_sec) #pwm motor
         else:
             # counts per loop = req rads/sec X revs/rad X counts/rev X secs/loop 
             scaler = (1 / (2*math.pi)) * self.get_parameter('encoder_cpr').value * (1 / self.get_parameter('loop_rate').value)
             mot1_ct_per_loop = motor_command.mot_1_req_rad_sec * scaler
             mot2_ct_per_loop = motor_command.mot_2_req_rad_sec * scaler
-            self.send_feedback_motor_command(mot1_ct_per_loop, mot2_ct_per_loop)
+            self.send_feedback_motor_command(mot1_ct_per_loop, mot2_ct_per_loop) #
 
     def check_encoders(self):
         resp = self.send_encoder_read_command()
@@ -141,8 +133,8 @@ class MotorDriver(Node):
         try:
             cmd_string += "\r"
             self.conn.write(cmd_string.encode("utf-8"))
-            if (self.debug_serial_cmds):
-                print("Sent: " + cmd_string)
+            if (self.debug_serial_cmds): # nếu có mở debug 
+                print("Sent: " + cmd_string) # th2i in ra màn hình những gì mình đã gửi
 
             ## Adapted from original
             c = ''
@@ -154,13 +146,13 @@ class MotorDriver(Node):
                     return ''
                 value += c
 
-            value = value.strip('\r')
+            value = value.strip('\r')# lấy phần lệnh phía sau kí tự con trỏ đầu
 
             if (self.debug_serial_cmds):
-                print("Received: " + value)
-            return value
+                print("Received: " + value) # nếu có mở debug thì in tin đã chuyển ra
+            return value # trả về giá trị value
         finally:
-            self.mutex.release()
+            self.mutex.release() # hàm luôn luôn thực hiện dòng này 
 
     def close_conn(self):
         self.conn.close()
